@@ -1,0 +1,23 @@
+@import "scss/navbar.scss";
+@import "scss/contactos.scss";
+@import "scss/index.scss";
+@import "scss/juegos.scss";
+@import "scss/footer.scss";
+@import "scss/mediaq.scss";
+@import "scss/personajes.scss";
+@import "scss/novedades.scss";
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    background-image: linear-gradient(rgb(61, 24, 24), rgba(210, 31, 31, 0.88));
+    background-size: cover;
+    color: whitesmoke;
+    font-family: 'Ubuntu', sans-serif;
+   
+}

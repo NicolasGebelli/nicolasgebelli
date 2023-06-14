@@ -1,0 +1,25 @@
+.tam_pj{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+
+
+.tam_pj img{
+    width: 30rem;
+    height: 30rem;
+    object-fit: cover;
+    transition: transform 1.5s;
+    &:hover{
+        transform: scale(1.1);
+    }
+}
+
+.tam_pj .tamanio_rep{
+    object-fit: contain;
+    transition: transform 1.5s;
+    &:hover{
+        transform: scale(1.1);
+    }
+}

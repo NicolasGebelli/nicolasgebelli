@@ -1,0 +1,27 @@
+
+footer{
+    background-color: rgb(40, 15, 15) ;
+    color: whitesmoke;
+}
+
+.div-space{
+    display: flex;
+    justify-content: space-around;
+}
+
+.socialmedia-icon{
+    width: 2rem;
+    height: 2rem;
+}
+
+footer a{
+    color: white;
+    text-decoration: none;
+}
+.p-container{
+    width: 20rem;
+}
+.footer-inline{
+    display: flex;
+    flex-direction: row;
+}

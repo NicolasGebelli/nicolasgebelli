@@ -1,0 +1,28 @@
+.iframe_center{
+    margin-top: 10rem;
+    margin-bottom: 10rem;
+    display: flex;
+    justify-content: center;
+}
+.container-iframe .iframe_center_dos{
+    display: none;
+}
+
+.container-iframe{
+    
+    padding: 2rem;
+    height: 70vh;
+    margin-bottom: 20rem;
+    display: grid;
+    grid-template-columns: 1fr ;
+    row-gap: 1rem;
+}
+
+#icon{
+    width: 10rem;
+    height: 10rem;
+}
+
+.nav-mobile{
+    display: none;
+}

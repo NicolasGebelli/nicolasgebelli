@@ -1,0 +1,14 @@
+.text-center{
+    font-size: xx-large;
+    text-align: center;
+}
+
+
+.img-principal{
+    margin-top: 15rem;
+    transition: transform 1.5s;
+    &:hover{
+        transform: scale(1.1);
+    }
+}
+

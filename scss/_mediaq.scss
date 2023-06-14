@@ -1,0 +1,26 @@
+@media screen and (min-width:1024px){
+    .contenedor .img-dos, .img-cinco{
+        display: block;
+    }
+
+    .contenedor{
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: 40% 40% 20%;
+    }
+
+    .contenedor .img-uno, .img-tres{
+        grid-row: span 2;
+    }
+
+    .contenedor .img-cuatro{
+        grid-column: span 1;
+    }
+    .contenedor .img-cinco{
+        grid-column: span 3;
+    }
+}
+@media screen and (min-width:1024px){
+    .container-iframe .iframe_center_dos{
+        display: block;
+        margin-top: 1rem;  }
+}
